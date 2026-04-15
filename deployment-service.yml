@@ -26,6 +26,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: bloggingapp-ssvc
+  namespace: webapps
 spec:
   selector:
     app: bloggingapp
